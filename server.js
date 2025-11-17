@@ -39,11 +39,11 @@ class Location {
 const locationData = {
     // Special Locations
     "ecotrail": new Location("ecotrail", "EcoTrail @ RV", "https://my.matterport.com/show/?m=poaeVuV77Ro", "A winding path that blends nature with campus life. Discover the green within.", "?"),
-    "library": new Location("library", "Renovated Library", "https://my.matterport.com/show/?m=RCoRDd7Li9u", "A sanctuary of stories. Now fresher than ever.", "?"),
+    "library": new Location("library", "Renovated Library", "https://my.matterport.com/show/?m=RCoRDd7Li9u", "A sanctuary of stories.", "?"),
     "new-basketball-court": new Location("bbc", "New Basketball Court", "https://panoraven.com/en/embed/zbFyWcWLXo", "Every bounce is a challenge. It's not just a court, it's a battlefield", "?"),
     "canteen": new Location("canteen", "School Canteen", "https://panoraven.com/en/embed/i0s8Ls8ekZ", "The daily hub of flavor and chatter, served fresh.", "?"),
     "scholars-court": new Location("scholar", "Scholar's Court", "https://panoraven.com/en/embed/YhRO2FnwMW", "Where minds meet and ideas take root. A space for quiet brilliance.", "?"),
-    "the-spring": new Location("spring", "The Spring", "https://panoraven.com/en/embed/nwE79dyoOX", "The finest mental health support Singapore has to offer.", "?"),
+    "the-spring": new Location("spring", "The Spring", "https://panoraven.com/en/embed/nwE79dyoOX", "The finest student wellness hub Singapore has to offer.", "?"),
     "rejuvenate": new Location("reju", "Rejuvenate!", "https://panoraven.com/en/embed/rhL2j8pgkg", "A place to pause, unwind, and recharge. Comfort meets necessity.", "?"),
 
     // NPC Ahh Locations
@@ -52,26 +52,26 @@ const locationData = {
     "field": new Location("field", "Field", "https://panoraven.com/en/embed/MMosdULmaN", "Where games are played, dreams are chased, and every blade of grass has a story.", "?"),
     "grandstand": new Location("grandstand", "Grandstand", "https://panoraven.com/en/embed/w9GqbCFDvg", "Where pride is raised and history stands tall. Flags fly, spirits rise.", "?"),
     "foyer": new Location("foyer", "Foyer", "https://panoraven.com/en/embed/3u1CkASOn7", "The gateway to everything.", "?"),
-    "fce-kitchen": new Location("fce", "FCE Kitchen", "https://panoraven.com/en/embed/d4au2Pumvu", "Where ingredients become masterpieces.", "?"),
+    "fce-kitchen": new Location("fce", "FCE Kitchen", "https://panoraven.com/en/embed/d4au2Pumvu", "Where ingredients become culinary masterpieces.", "?"),
     "big-e": new Location("big_e", "Big E", "https://panoraven.com/en/embed/ucWg5XLYTe", "A hub for problem-solvers.", "?"),
-    "fitness-corner": new Location("fitness", "Fitness Corner", "https://panoraven.com/en/embed/bM4Yg7riwj", "Where strength is built and limits are tested. Push past the usual.", "?"),
-    "table-tennis-room": new Location("tt", "Table Tennis Room", "https://panoraven.com/en/embed/McMSU2wQKK", "Where every serve is a strategy.", "?"),
-    "art-room": new Location("art", "Art Room", "https://panoraven.com/en/embed/HTDqWcnLoO", "Where imagination meets canvas.", "?"),
+    "fitness-corner": new Location("fitness", "Fitness Corner", "https://panoraven.com/en/embed/bM4Yg7riwj", "Where abs-olute strength is built and limits are tested. Push past the usual.", "?"),
+    "table-tennis-room": new Location("tt", "Table Tennis Room", "https://panoraven.com/en/embed/McMSU2wQKK", "Paddle your way to victory", "?"),
+    "art-room": new Location("art", "Art Room", "https://panoraven.com/en/embed/HTDqWcnLoO", "Where lessons are built on bold strokes", "?"),
     "slda-room": new Location("slda", "SLDA Room", "https://panoraven.com/en/embed/JTzbzU5LhW", "The forge where leaders are shaped.", "?"),
-    "dnt-room": new Location("dntr", "D&T Workshop", "https://panoraven.com/en/embed/FHNPWPBRuy", "Craft, create, and conquer the future.", "?"),
+    "dnt-room": new Location("dntr", "D&T Workshop", "https://panoraven.com/en/embed/FHNPWPBRuy", "Where precision meets imagination", "?"),
 
     // Additional Locations
-    "chemistry-lab": new Location("chem", "Chemistry Lab", "https://panoraven.com/en/embed/6zlKgNLEUa", "Where reactions speak louder than words.", "?"),
+    "chemistry-lab": new Location("chem", "Chemistry Lab", "https://panoraven.com/en/embed/6zlKgNLEUa", "Reactions speak louder than words.", "?"),
     "dnt-studio": new Location("dnts", "D&T Studio", "https://panoraven.com/en/embed/sxQuGjX6xh", "From blueprints to breakthroughs.", "?"),
-    "physics-in-action-lab": new Location("pia", "Physics in Action Lab", "https://panoraven.com/en/embed/8e7W2cTRBi", "Hands-on with the universe.", "?"),
+    "physics-in-action-lab": new Location("pia", "Physics in Action Lab", "https://panoraven.com/en/embed/8e7W2cTRBi", "No potential energy is wasted.", "?"),
     "lecture-theater-1": new Location("lt", "Lecture Theater 1", "https://panoraven.com/en/embed/gCL630uxnJ", "Echoes of ideas, amplified.", "?"),
     "collaboration-hub": new Location("collab", "Collaboration Hub", "https://panoraven.com/en/embed/yGpcajTqBs", "Built for brains that think better together.", "?"),
-    "senior-high-lounge": new Location("lounge", "Senior High Lounge", "https://panoraven.com/en/embed/vd3ibq3Roe", "The calm after the academic storm.", "?"),
-    "chinese-orchestra-room": new Location("co", "Chinese Orchestra Room", "https://panoraven.com/en/embed/k1Qa2xHfe0", "Where tradition strikes a chord.", "?"),
-    "band-room": new Location("band", "Band Room", "https://panoraven.com/en/embed/jcOh1XoGDM", "Where sound becomes soul.", "?"),
+    "senior-high-lounge": new Location("lounge", "Senior High Lounge", "https://panoraven.com/en/embed/vd3ibq3Roe", "Where wisdom meets comfort", "?"),
+    "chinese-orchestra-room": new Location("co", "Chinese Orchestra Room", "https://panoraven.com/en/embed/k1Qa2xHfe0", "Our songs strike a chord with you", "?"),
+    "band-room": new Location("band", "Band Room", "https://panoraven.com/en/embed/jcOh1XoGDM", "Not trying to blow our trumpet but we are noteworthy", "?"),
     "icode-lab": new Location("icode", "iCode Lab", "https://panoraven.com/en/embed/Nx52Zc18CE", "Type fast. Think faster.", "?"),
     "ecg-room": new Location("ecg", "Education and Career Guidance Room", "https://panoraven.com/en/embed/CudguwcHTJ", "Plan smarter. Dream bigger.", "?"),
-    "mla-room": new Location("mla", "Mathematics Leaders Academy Room", "https://panoraven.com/en/embed/LqnDAwDqnB", "Shaping thinkers. Crafting problem solvers.", "?")
+    "mla-room": new Location("mla", "Mathematics Leaders Academy Room", "https://panoraven.com/en/embed/LqnDAwDqnB", "Where problems get figured out as solutions take root", "?")
 };
 
 const cca_socials = {
